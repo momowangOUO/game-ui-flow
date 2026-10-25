@@ -1,0 +1,6 @@
+interface:
+  display_name: "游戏界面流程"
+  short_description: "组织游戏页面、物品选择和导航返回，检查手机布局、图片比例、状态连续性与实际操作路径"
+  default_prompt: "请用 $game-ui-flow 检查当前游戏的界面安排，依据实际功能整理页面与返回路径，修复获准的问题并验证。"
+policy:
+  allow_implicit_invocation: true
